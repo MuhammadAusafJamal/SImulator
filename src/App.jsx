@@ -36,11 +36,11 @@ export default function App() {
     setActive(value);
   };
   const queuingHeading = [
-    "Number in the Queue",
-    "Wait in the Queue",
-    "Wait in the System",
-    "Number in the System",
-    "Proportion of time server is idle",
+    "Number of customers in the queue (LQ): ",
+    "Time in queue (WQ): ",
+    "Average time spent in the system (W): ",
+    "Average number of customers (L): ",
+    "Proportion of time server is idle: ",
   ];
   const [arrivalMean, setArrivalMean] = useState(0);
   const [queueing, setQueueing] = useState([]);
