@@ -567,7 +567,7 @@ export default function App() {
               setUsePriority={setUsePriority}
             />
             <button
-              className="bg-[#007BFF] hover:bg-[#0069D9] py-2 px-4 rounded-lg mt-6 text-white text-lg"
+              className="bg-[green] hover:bg-[darkGreen] py-2 px-4 rounded-lg mt-6 text-white text-lg"
               onClick={() => {
                 console.log("button click", active);
                 if (activeCalculator == "simulation") {
