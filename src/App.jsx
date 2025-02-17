@@ -301,7 +301,7 @@ export default function App() {
           id="calculatorSection"
         >
           {/* <div className="h-16"></div> */}
-          <div className="text-2xl  flex/ justify-between w-[65%]/ w-full flex-[2] bg-[#242B2E] text-white text-center/">
+          <div className="text-2xl  flex/ justify-between w-[65%]/ w-full flex-[2] bg-black text-white text-center/">
             <h1 className="px-4 py-12 text-3xl font-bold">Dashboard</h1>
             <h1
               className={`p-4 cursor-pointer hover:bg-[#394144] ${
@@ -680,7 +680,7 @@ export default function App() {
                 }
               }}
             >
-              {activeCalculator == "simulation" ? "simulate" : "queue"}
+              {activeCalculator == "simulation" ? "Simulate your Data" : "Calculate Queue Parameter"}
             </button>
           </section>
         </main>

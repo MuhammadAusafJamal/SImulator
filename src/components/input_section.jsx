@@ -208,7 +208,7 @@ const InputSection = ({
           htmlFor="priorityCheck"
         >
           {" "}
-          Priority
+          Do you have priority in your model?
           <input
             id="priorityCheck"
             type="checkbox"
